@@ -73,6 +73,7 @@ router.put('/book/:id', function (req, res, next) {
   });
 });
 router.delete('/book/:id', function (req, res, next) {
+  console.log('inside delete');
   Book.findByIdAndRemove(req.params.id, function (err, post) {
     if (err) return next(err);
     res.json(post);

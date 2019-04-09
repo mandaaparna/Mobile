@@ -9,9 +9,6 @@ import {UserAddComponent } from './user-add/user-add.component';
 import {UserLoginComponent} from './user-login/user-login.component';
 import {AppRoutingModule} from './app-routing.module';
 import {AngularMaterialModule} from './angular-material/angular-material.module';
-import {CustomerDetailComponent} from './customer-detail/customer-detail.component';
-import {CustomerAddComponent} from './customer-add/customer-add.component';
-import {CustomerEditComponent} from './customer-edit/customer-edit.component';
 import {UserProfileComponent} from './user-profile/user-profile.component';
 import {UserTemplateComponent} from './user-template/user-template.component';
 import {BooksComponent} from './books/books.component';
@@ -21,9 +18,6 @@ import {EnrollmentsComponent} from './enrollments/enrollments.component';
   declarations: [
     AppComponent,
     UserAddComponent ,
-    CustomerDetailComponent,
-    CustomerAddComponent,
-    CustomerEditComponent,
     UserLoginComponent,
       UserProfileComponent,
       UserTemplateComponent,

@@ -1,11 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
-
-/*import {CustomerComponent} from './customer/customer.component';*/
-import {CustomerDetailComponent} from './customer-detail/customer-detail.component';
-import {CustomerAddComponent} from './customer-add/customer-add.component';
-import {CustomerEditComponent} from './customer-edit/customer-edit.component';
 import {UserAddComponent} from './user-add/user-add.component';
 import {UserLoginComponent} from "./user-login/user-login.component";
 import {UserProfileComponent} from "./user-profile/user-profile.component";
@@ -44,26 +39,11 @@ const appRoutes: Routes = [
     component: UserProfileComponent,
     data: {title: 'User Profile'} 
   },
-  {
-    path: 'customer-details/:id',
-    component: CustomerDetailComponent,
-    data: {title: 'Customer Details'}
-  },
-  {
-    path: 'customer-add',
-    component: CustomerAddComponent,
-    data: {title: 'Add Customer'}
-  },
-  {
-    path: 'customer-edit/:id',
-    component: CustomerEditComponent,
-    data: {title: 'Edit Book'}
-  },
-  {
+ /* {
     path: '',
     redirectTo: '/customers',
     pathMatch: 'full'
-  }
+  }*/
 ];
 
 @NgModule({

@@ -621,9 +621,9 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Aparna Manda\Desktop\Part1\ICP7\UserManagementSystem\src\styles.css */"./src/styles.css");
-__webpack_require__(/*! C:\Users\Aparna Manda\Desktop\Part1\ICP7\UserManagementSystem\node_modules\ngx-bootstrap\datepicker\bs-datepicker.css */"./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css");
-module.exports = __webpack_require__(/*! C:\Users\Aparna Manda\Desktop\Part1\ICP7\UserManagementSystem\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+__webpack_require__(/*! C:\Users\Aparna Manda\Desktop\Lab-3\UserManagementSystem\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\Aparna Manda\Desktop\Lab-3\UserManagementSystem\node_modules\ngx-bootstrap\datepicker\bs-datepicker.css */"./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css");
+module.exports = __webpack_require__(/*! C:\Users\Aparna Manda\Desktop\Lab-3\UserManagementSystem\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
 
 
 /***/ })

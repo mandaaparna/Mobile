@@ -125,5 +125,6 @@ export class AppComponent {
               }
 
           });
+		 // this.api.deleteBook('5caa9e284a67763f2cf983ca');
 }
 }
