@@ -54,6 +54,8 @@ export class EnrollmentsComponent implements OnInit {
                 this.api.updateBook(this.my_enrollments[ind]._id, this.my_enrollments[ind])
                     .subscribe(res1 => {
                       this.my_enrollments.splice( Number(ind) , 1);
+					  for (let j = Number(ind) ; j < this.my_enrollments.length ; j++ ) {
+                          this.my_enrollments[j].ind = j;}
                     }, (err) => {
                       console.log(err);
                     });
